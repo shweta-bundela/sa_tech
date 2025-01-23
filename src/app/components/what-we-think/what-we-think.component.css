@@ -1,0 +1,115 @@
+/* Global Font Settings */
+body {
+    font-family: 'Roboto', sans-serif; /* Default font for the body */
+    background-color: #f8f9fa; /* Light background */
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+  /* Set the background color for the container */
+  .container {
+    background-color: #ffffff; /* White background for the content */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow around the container */
+  }
+  
+  /* Heading styling */
+  h1, h3 {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font for headings */
+    color: #333; /* Darker color for headings */
+    font-weight: 600; /* Bold font for headings */
+  }
+  
+  h1 {
+    font-size: 3rem; /* Larger font size for the main heading */
+    text-transform: uppercase; /* Uppercase letters for the main heading */
+    letter-spacing: 2px; /* Slight spacing between letters */
+  }
+  
+  h3 {
+    font-size: 1.8rem; /* Slightly smaller font size for subheadings */
+    color: #007bff; /* A blue color for subheadings */
+    margin-bottom: 15px; /* Space below each subheading */
+  }
+  
+  /* Paragraph text styling */
+  p {
+    font-size: 1.1rem;
+    color: #555; /* Lighter color for paragraph text */
+    line-height: 1.8; /* Add line spacing for readability */
+    margin-bottom: 20px; /* Bottom margin for separation */
+  }
+  
+  /* Styling for the image containers */
+  .img-fluid {
+    height: 300px; /* Fixed height for uniform image sizes */
+    width: 100%; /* Make images take full width of the container */
+    object-fit: cover; /* Ensures images retain aspect ratio and cover the area */
+    border-radius: 10px; /* Rounded corners for the images */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Light shadow around the images */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for images */
+  .img-fluid:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  /* Background Color for Section Rows */
+  .row {
+    margin-bottom: 30px; /* Space between sections */
+  }
+  
+  /* Text Centering */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Section with Image and Text */
+  .mt-5 {
+    margin-top: 5rem; /* Spacing between sections */
+  }
+  
+  /* Fancy Button for Call-to-Action */
+  .btn-fancy {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.2); /* Soft shadow for button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .btn-fancy:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+  }
+  
+  /* Optional: Add a gradient background */
+  body {
+    background: linear-gradient(135deg, #6e7bff, #6ab1ff); /* Gradient background */
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  /* Animation for gradient */
+  @keyframes gradient {
+    0% {
+      background-position: 400% 0;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 400% 0;
+    }
+  }
+  
+  

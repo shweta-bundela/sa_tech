@@ -1,0 +1,93 @@
+/* Contact Page Container */
+.contact-container {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .contact-header {
+    margin-bottom: 40px;
+  }
+  
+  .contact-logo {
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Contact Options */
+  .contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* Contact Button */
+  .contact-btn {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Call Button */
+  .call-btn {
+    background-color: #007bff;
+  }
+  
+  .call-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(40, 167, 69, 0.2);
+  }
+  
+  /* Email Button */
+  .mail-btn {
+    background-color: #007bff;
+  }
+  
+  .mail-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Chat Button */
+  .chat-btn {
+    background-color: #007bff;
+  }
+  
+  .chat-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(23, 162, 184, 0.2);
+  }
+  
+  /* FontAwesome Icons */
+  .fas {
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    .contact-options {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  

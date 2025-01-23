@@ -1,0 +1,140 @@
+/* Container Styling for the About Section */
+.about-section {
+    padding: 80px 40px; /* Increased padding for more spacious sections */
+    background: linear-gradient(135deg, #6e7bff, #6ab1ff); /* Gradient background */
+    color: #fff; /* Light text color for better contrast */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.15); /* Larger shadow for depth */
+    position: relative; /* Position for the hover effect */
+    overflow: hidden; /* Ensures content stays inside */
+}
+
+/* Updated gradient animation for a more dynamic effect */
+@keyframes gradientShift {
+    0% {
+        background-position: 400% 0;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 400% 0;
+    }
+}
+
+.about-section {
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+}
+
+/* Styling for the Heading */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem; /* Increased font size */
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px; /* Increased margin for separation */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px; /* Increased spacing between letters */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Stronger shadow for more prominence */
+}
+
+/* Centered Paragraphs */
+p {
+    font-size: 1.3rem; /* Increased font size */
+    color: #f7f7f7; /* Lighter color text */
+    line-height: 1.9; /* Increased line height for readability */
+    text-align: center;
+    max-width: 800px; /* Wider content */
+    margin: 0 auto 40px; /* More margin for spacing */
+}
+
+/* Service Box (Text and Image Sections) */
+.row .col-md-6 {
+    padding: 40px; /* Increased padding inside columns */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Add hover effect for columns */
+.row .col-md-6:hover {
+    transform: translateY(-15px); /* Slight lift effect */
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.25); /* Bigger shadow for hover effect */
+}
+
+/* Image Styling */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2); /* Soft shadow around images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transform & shadow */
+}
+
+/* Hover effect for images */
+.img-fluid:hover {
+    transform: scale(1.1); /* Increased zoom effect */
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25); /* Stronger shadow on hover */
+}
+
+/* Image Circle Styling */
+.rounded-circle {
+    border-radius: 50%;
+    max-width: 500px; /* Larger size */
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease; /* Smooth scale effect */
+}
+
+/* Hover effect on circular image */
+.rounded-circle:hover {
+    transform: scale(1.15); /* Slight zoom effect on hover */
+}
+
+/* Vision and Mission Section */
+.row.mt-5 {
+    text-align: center;
+    margin-top: 60px; /* More space between sections */
+}
+
+.row.mt-5 p {
+    font-size: 1.4rem; /* Larger font for the vision/mission section */
+    font-weight: 600;
+    color: #fff; /* Light text */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    line-height: 1.9;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 767px) {
+    .about-section {
+        padding: 40px 20px; /* Reduced padding on mobile but still spacious */
+    }
+
+    .h1 {
+        font-size: 2.5rem; /* Smaller heading font size */
+    }
+
+    .img-fluid {
+        max-width: 100%; /* Make image fully responsive */
+    }
+
+    .rounded-circle {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .row .col-md-6 {
+        padding: 20px; /* Reduced padding on mobile */
+    }
+
+    .about-section p {
+        font-size: 1.1rem; /* Adjust text size */
+    }
+
+    .row.mt-5 p {
+        font-size: 1.2rem; /* Slightly smaller font on mobile */
+    }
+}
