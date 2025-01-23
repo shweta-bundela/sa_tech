@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/sa_tech": {},
+    "/sa_tech/about": {},
+    "/sa_tech/contact": {},
+    "/sa_tech/what-we-do": {},
+    "/sa_tech/what-we-think": {}
+  }
+}
